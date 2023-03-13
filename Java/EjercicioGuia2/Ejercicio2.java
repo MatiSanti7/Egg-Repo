@@ -1,3 +1,4 @@
+
 package EjercicioGuia2;
 
 import java.util.Scanner;
@@ -7,7 +8,7 @@ public class Ejercicio2 {
         String nombre;
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese su nombre: ");
-        nombre = leer.next();
+        nombre = leer.nextLine();
         System.out.println("Su nombre es " + nombre);
     }
 }
